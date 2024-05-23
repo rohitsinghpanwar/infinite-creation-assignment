@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-style: oblique;
+}
+/* for navigation bar */
+nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(249, 207, 177,0.5);
+    padding: 1%;
+}
+/* for detail section about treatment */
+#details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(249, 238, 177, 0.5);
+    margin: 4%;
+    
+    border: transparent;
+    border-radius: 2%;
+}
+.services{
+    display: flex;
+    border: transparent;
+    border-radius: 2%;
+    margin: 2%;
+    
+    
+}
+
+.treatment{
+    margin: 1%;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    border-radius: 5px;
+
+}
+/* for footer */
+footer{
+    background-color: brown;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* for social media logo */
+#socialmedia{
+    display: flex;
+    gap: 30px;
+}
+/* for contact section where user will fill up his/her detail */
+#contact{
+
+    padding: 2%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(249, 170, 236, 0.5);
+    align-items: center;
+    gap: 10px;
+    width: max-content;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+ input{
+   height: 35px;
+
+   text-align: center;
+   border-radius:50px;
+   
+}
+button{
+    background-color: orange;
+    height: 40px;
+    border-radius:50px;
+}
+/* to remove initial margin and padding */
+h1,h4,h5,h3,h2{
+    margin: 0;
+    padding: 0;
+}
+/* for clinic and doctor info section */
+.clinics{
+   
+    width: max-content;
+    height: fit-content;
+    background-color: rgba(193, 254, 214, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+#dashboard{
+    display: flex;
+    gap: 20px;
+}
+#doctor{
+    display: flex;
+    gap: 20px;
+}
+/* for ai chatbot section */
+#dori{
+    background-color: rgba(249, 170, 236, 0.5) ;
+    display: flex;
+    padding: 2%;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+#ai{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+#box1{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#box3{
+    display: flex;
+    padding-top: 5%;
+    gap: 10px;
+}
+/* for section just after the navbar */
+#rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+/* for beyond dentistry section */
+#beyond{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(249, 170, 236, 0.3);
+    border-radius: 20px;
+    padding: 5%;
+    margin: 4%;
+}
+
+#career{
+    display: flex;
+    gap: 10px;
+}
+
+
+.reward{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 1%;
+}
+/* for frequently asked question section */
+#question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 2%;
+
+}
+#question h5{
+    border-bottom: 1px solid gray;
+}
+/* Responsive css for phone */
+@media screen and (max-width :400px) {
+    nav{
+        font-size: 6px;
+}
+#rating{
+    font-size: 5px;
+}
+ button{
+    font-size: 7px;
+    height: 15px;  
+ }
+input{
+    height: 8px;
+    font-size: 8px;
+}
+#details{
+    font-size: 7px;
+}
+#box1{
+    font-size: 6px;
+    padding: 10px;
+}
+.clinics img{
+    width: 30px;
+}
+
+#contact{
+    gap: 5px;
+}
+#beyond{
+    font-size: 10px;
+    gap: 8px;
+}
+#question{
+    font-size: 11px;
+    gap: 5px;
+}
+footer{
+    font-size: 5px;
+}
+}
+/* Responsive css for tablet */
+@media screen and (max-width:900px) {
+    nav{
+        font-size: 15px;
+}
+#rating{
+    font-size: 12px;
+}
+ button{
+    font-size: 12px;
+    height: 25px;  
+ }
+input{
+    height: 20px;
+    font-size: 12px;
+}
+#details{
+    font-size: 12px;
+}
+#box1{
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.clinics img{
+    width: 80px;
+}
+
+#beyond{
+    font-size: 18px;
+    gap: 8px;
+}
+#question{
+    font-size: 16px;
+    gap: 5px;
+}
+footer{
+    font-size: 12px;
+}
+#socialmedia{
+    gap: 15px;
+}
+}
